@@ -1,3 +1,8 @@
+import frame from "../../assets/Img/Frame.svg"
+import { FaFacebook } from "react-icons/fa6"
+import { FaTwitter } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa"
+import { FaYoutube } from "react-icons/fa6";
 export const Footer=()=>
 {
     return (
@@ -22,17 +27,17 @@ export const Footer=()=>
             </nav>
             <nav className="footer__icon">
               <ul>
-                <li><a target="_blank" href="#"><i className="fa-brands fa-facebook"></i></a></li>
-                <li><a target="_blank" href="#"><i className="fa-brands fa-twitter"></i></a></li>
-                <li><a target="_blank" href="#"><i className="fa-brands fa-youtube"></i></a></li>
-                <li><a target="_blank" href="#"><i className="fa-brands fa-youtube"></i></a></li>
+                <li><a target="_blank" href="#"><FaFacebook /></a></li>
+                <li><a target="_blank" href="#"><FaTwitter /></a></li>
+                <li><a target="_blank" href="#"><FaInstagram /></a></li>
+                <li><a target="_blank" href="#"><FaYoutube /></a></li>
               </ul>
             </nav>
           </div>
           <div className="footer__bottom">
             <div className="footer__copyright">© 2025 Monito. All rights reserved.</div>
             <div className="footer__logo"><a href="#">
-              <img alt="" src="./assets/Img/Frame.svg"/></a></div>
+              <img alt="" src={frame}/></a></div>
             <div className="footer__link">
               <ul>
                 <li><a target="_blank" href="#">Điều khoản dịch vụ</a></li>
