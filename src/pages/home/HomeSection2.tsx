@@ -1,3 +1,5 @@
+
+import { Link, useSearchParams } from "react-router-dom";
 import section2Product1 from "../../assets/Img/section-2_product1.jpg"
 import { FaAngleRight } from "react-icons/fa6";
 
@@ -17,9 +19,9 @@ export const HomeSection2=()=>
         </div>
         <div className="section-2__wrap">
           <div className="product-item">
-            <div className="section-2__image"><a href="chitietsanpham.html"> 
+            <div className="section-2__image">  <Link to={`/product/${1}`}>
                 <img src={section2Product1} alt=""/>
-                </a>
+                </Link>
                 </div>
             <div className="section-2__content">
               <h3 className="section-2__ptitl">MO231 - Pomeranian Trắng</h3>

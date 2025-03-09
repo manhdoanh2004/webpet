@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+import section2Product1 from "../../../assets/Img/section-2_product1.jpg"
 export const Products=()=>
 {
     return (
@@ -12,9 +14,9 @@ export const Products=()=>
             </div>
             <div className="sp-section-1__list-iteam">
               <div className="product-item">
-                <div className="sp-section-1__image"><a href="chitietsanpham.html" target="_blank">
-                    <img src="assets/Img/section-2_product1.jpg" alt=""/>
-                    </a>
+                <div className="sp-section-1__image"> <Link to={`/product/${1}`}>
+                    <img src={section2Product1} alt=""/>
+                    </Link>
                     </div>
                 <div className="sp-section-1__content">
                   <h3 className="sp-section-1__ptitl">MO231 - Pomeranian Trắng</h3>
@@ -33,9 +35,9 @@ export const Products=()=>
                 </div>
               </div>
               <div className="product-item">
-                <div className="sp-section-1__image"><a href="chitietsanpham.html" target="_blank">
-                    <img src="assets/Img/section-2_product1.jpg" alt=""/>
-                    </a>
+                <div className="sp-section-1__image"><Link to={`/product/${2}`}>
+                    <img src={section2Product1} alt=""/>
+                    </Link>
                     </div>
                 <div className="sp-section-1__content">
                   <h3 className="sp-section-1__ptitl">MO231 - Pomeranian Trắng</h3>

@@ -21,7 +21,7 @@ export const Header=()=>
                  </Link>
               </li>
               <li>
-                <Link to={"/productlist"}>
+                <Link to={"/product"}>
                     Danh muc
                  </Link>
               </li>
